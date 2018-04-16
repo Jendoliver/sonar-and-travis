@@ -4,9 +4,9 @@ public class Calculator
 {
 	public static final String ZERO_DIVISION = "The divisort can't be zero!";
 
-	public int add(int FirstOperatoR, int SegonDoPerADort)
+	public int add(int a, int b)
 	{
-		return FirstOperatoR + SegonDoPerADort;
+		return a + b;
 	}
 
 	public int sub(int a, int b)
