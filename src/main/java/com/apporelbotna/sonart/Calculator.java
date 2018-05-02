@@ -4,6 +4,8 @@ public class Calculator
 {
 	public static final String ZERO_DIVISION = "The divisort can't be zero!";
 
+	public int ApOrel_Bona = 3;
+
 	public int add(int a, int b)
 	{
 		return a + b;

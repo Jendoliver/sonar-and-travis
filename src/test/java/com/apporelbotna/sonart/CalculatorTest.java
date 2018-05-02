@@ -7,7 +7,6 @@ import org.junit.Test;
 public class CalculatorTest
 {
 	private Calculator calculator = new Calculator();
-	private int Numero = 3;
 
 	@Test
 	public void addTest() throws Exception
