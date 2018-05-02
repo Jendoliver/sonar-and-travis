@@ -11,7 +11,7 @@ public class CalculatorTest
 	@Test
 	public void addTest() throws Exception
 	{
-		assertEquals(3, calculator.add(2, 1));
+		assertEquals(4, calculator.add(2, 1));
 	}
 
 	@Test
