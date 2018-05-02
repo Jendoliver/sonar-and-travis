@@ -7,11 +7,12 @@ import org.junit.Test;
 public class CalculatorTest
 {
 	private Calculator calculator = new Calculator();
+	private int Numero = 3;
 
 	@Test
 	public void addTest() throws Exception
 	{
-		assertEquals(4, calculator.add(2, 1));
+		assertEquals(3, calculator.add(2, 1));
 	}
 
 	@Test
